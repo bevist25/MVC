@@ -1,6 +1,6 @@
 <?php
 //Path
-define('ROOT_FOLDER' , "giangnq");
+define('ROOT_FOLDER' , "bevist");
 define('ROOT_URL' , "https://72.merket.io/pt2/".ROOT_FOLDER);
 define('POST_URL' , "https://72.merket.io/pt2/".ROOT_FOLDER."/post");
 define('CAT_URL' , "https://72.merket.io/pt2/".ROOT_FOLDER."/category");
