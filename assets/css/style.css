@@ -1,0 +1,105 @@
+#site-main {
+    padding: 50px 0;
+}
+img {
+    max-width: 100%
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* category */
+.category h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.category .posts {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.category .posts ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.category .posts .list-item li {
+    width: calc((100% - 30px) / 3);
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 40px;
+}
+.category .posts ul li:nth-child(3n) {
+    margin-right: 0;
+}
+.category .posts ul li .img {
+    
+    position: relative;
+        
+    height: 0;
+        
+    padding-bottom: 78%;
+}
+.category .posts ul li .img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.category .posts ul li .title-content {
+    
+margin-top: 15px;
+}
+.category .posts ul li .title-content a {
+    text-decoration: none;
+    color: #000;
+}
+.category .posts ul li .title-content a:hover {
+    text-decoration: underline;
+}
+
+/* Post */
+.post .title-page,
+.post .thumbnail-image {
+    margin-bottom: 50px;
+}
+
+.post .thumbnail-image img {
+    width: 100%;
+}
+
+.pagition .page {
+    box-sizing: border-box;
+    width: 35px;
+    height: 35px;
+    margin: 0 2px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: inline-flex;
+    justify-content: center;
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 50%;
+    padding: 11px 0;
+}
+.pagition {
+    padding-top:30px !important;
+    justify-content: center;
+}
+.pagition .page:not(.current) {
+    color: #fff;
+    background: #000000;
+}
